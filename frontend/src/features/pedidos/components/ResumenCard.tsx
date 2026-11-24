@@ -1,0 +1,20 @@
+import { Card } from '../../../shared/ui/Card'
+
+interface ResumenCardProps {
+  titulo: string
+  valor: string | number
+  icono: string
+  color: string
+}
+
+export function ResumenCard({ titulo, valor, icono, color }: ResumenCardProps) {
+  return (
+    <Card className="flex items-center gap-4 p-5">
+      <span className={`flex h-12 w-12 items-center justify-center rounded-xl text-2xl ${color}`}>{icono}</span>
+      <div>
+        <p className="text-sm text-stone-500">{titulo}</p>
+        <p className="text-2xl font-bold">{valor}</p>
+      </div>
+    </Card>
+  )
+}
