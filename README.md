@@ -6,7 +6,7 @@ Alumno: **Santiago Baez**
 Aplicación web para un negocio de comidas: los clientes se registran, recorren el catálogo, arman un carrito y confirman pedidos con dirección de entrega y forma de pago; el negocio administra categorías, productos, stock, pedidos y usuarios desde un panel.
 
 - **Repositorio:** https://github.com/SantiagoBaez01/TPI-Food-Store
-- **Video de demostración:** _(pegar aquí el link público del video)_
+- **Video de demostración:** https://youtu.be/1d1ghUc7n1Q
 
 | Parte | Stack |
 |---|---|
